@@ -3,6 +3,9 @@ import Header from './Components/Header'
 import PageInicio from './Components/PageInicio'
 import PageProduto from './Components/PageProduto'
 import PageSobre from './Components/PageSobre'
+import PageContato from './Components/PageContato'
+import Footer from './Components/Footer'
+import "/src/CSS/global.css";
 
 
 function App() {
@@ -16,7 +19,11 @@ function App() {
           <PageInicio />
           <PageProduto />
           <PageSobre />
+          <PageContato />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   )
